@@ -2,9 +2,6 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 body{
-background-image: ("marblebg3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     width:100%;margin:20px auto;
 }
 #divMain{width:500px;margin:0 auto;}
@@ -35,7 +32,7 @@ background-image: ("marblebg3.jpg");
   }
   .article {
     margin-left: 500px;
-    border: 1px solid gray;
+    border: 10px solid #ffe6e6;
     padding: 5em;
     overflow: hidden;
     height: 215px;
@@ -49,7 +46,7 @@ background-image: ("marblebg3.jpg");
     width: 25%;
     float:left;
     margin-left:10px;
-    border: 1px solid gray;
+  border: 10px solid #ffe6e6;
   }
   /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
      follow these rules. Every browser that supports :checked also supports :not(), so
@@ -69,7 +66,7 @@ background-image: ("marblebg3.jpg");
       cursor:pointer;
       font-size:200%;
       line-height:1.2;
-      color:#ddd;
+      color:#ffe6e6;
       text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
   }
 

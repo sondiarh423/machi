@@ -1,0 +1,98 @@
+<style>
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+.container a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.box{
+  width:1650px;
+  height: 300px;
+
+  vertical-align:bottom;
+  overflow:auto;
+  white-space:nowrap;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  padding-top: 20px;
+}
+
+  .outer h1{
+    color: red
+  }
+
+.outer{
+    width:1600px;
+    height: 250px;
+
+    overflow:auto;
+    white-space:nowrap;
+    background-color: white;
+    margin: auto;
+    width:99%;
+    height:110%;
+
+    border: 7px solid black;
+
+
+}
+.outer li{
+    display: inline-block;
+    *display: inline;/*For IE7*/
+    *zoom:1;/*For IE7*/
+    vertical-align:top;
+    width:200px;
+    margin-right:20px;
+    background:white;
+    white-space:normal;
+}
+
+}
+
+</style>

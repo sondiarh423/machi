@@ -1,8 +1,54 @@
 <style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+body{
+  width:100%;margin:20px auto;
+}
+#divMain{width:500px;margin:0 auto;}
+ul  {
+min-width: 650px;
+list-style: none;
+padding-top: 10px;
+}
+ul li  {
+  display: inline;
+  float: left;
+}
+nav {
+  float: left;
+  max-width: 425px;
+  margin: 10px;
+  padding-top: 10px;
+  border: 1px solid grey;
+  height: 345px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul a {
+    text-decoration: none;
+}
+.article {
+  margin-left: 0px;
+  padding:0px;
+  overflow: hidden;
+
+
+
+}
+
+div{
+  padding-top: 0px;
+}
 .container {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
+  overflow: hidden;
+  font-family: Avantgarde, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-left: 65px;
 }
 .container a {
     float: left;
@@ -15,6 +61,8 @@
 .dropdown {
     float: left;
     overflow: hidden;
+    padding-top: 100px;
+
 }
 .dropdown .dropbtn {
     font-size: 25px;
@@ -49,50 +97,110 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-.box{
-  width:1650px;
-  height: 300px;
-
-  vertical-align:bottom;
-  overflow:auto;
-  white-space:nowrap;
-  background-color: white;
-  margin: auto;
-  width: 100%;
-  padding-top: 20px;
+#nav ul{
+    background: : #232323;
+    height: 60 px;
+    display: inline-block;
+    list-style-type: none;
 }
+#logo a {
+    padding: 0px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;}
+#search {
+    width: 357px;
+    margin: 4px;
+}
+#search_text{
+    width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 52px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #1f7f5c;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+#search_text:focus {
+    background: rgb(64, 151, 119);
+}
+#search_button {
+    border: 0 none;
+    background: #1f7f5c url(search.png) center no-repeat;
+    width: 60px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 52px;
+    cursor: pointer;
+}
+div.box{
+  width: 1200px;
+  height: 300px;
+  border: 1px solid gray;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align:top;
+  overflow: hidden;
 
-  .outer h1{
+}
+.outer h1{
     color: red
   }
 
 .outer{
-    width:1600px;
-    height: 250px;
-
-    overflow:auto;
+    width:1200px;
+    height: 300px;
+    margin: 0 auto;
     white-space:nowrap;
-    background-color: white;
-    margin: auto;
-    width:99%;
-    height:110%;
-
-    border: 7px solid black;
+    overflow: scroll;
 
 
-}
-.outer li{
-    display: inline-block;
-    *display: inline;/*For IE7*/
-    *zoom:1;/*For IE7*/
-    vertical-align:top;
-    width:200px;
-    margin-right:20px;
-    background:white;
-    white-space:normal;
-}
+  }
+
+.inner{
+  width: 1500px;
 
 }
+div.pic-row a{
+  width: 180px;
+  height: 180px;
+}
+
+table{
+  overflow: hidden;
+  border: 1px solid black;
+  }
+  tr, th{
+  width:100px;
+  height: 300px;
+  border: 1px solid black;
+  overflow: scroll;
+  padding: 100px
+
+}
+.aboutus  {
+ display: inline-block;
+}
+
+
 
 </style>

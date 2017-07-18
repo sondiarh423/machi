@@ -2,7 +2,10 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 body{
-  width:100%;margin:20px auto;
+background-image: ("marblebg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;margin:20px auto;
 }
 #divMain{width:500px;margin:0 auto;}
   ul  {

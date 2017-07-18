@@ -1,2 +1,2 @@
 # machi
-https://github.com/sondiarh423/machi.git
+homepage link https://sondiarh423.github.io/machi/homepage.html

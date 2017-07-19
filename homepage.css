@@ -45,7 +45,7 @@ div{
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
-  padding-left: 55px;
+  padding-left: 45px;
 }
 .container a {
     float: left;
@@ -107,10 +107,10 @@ div{
     line-height: 24px;
     width: 200px;}
 #search {
-    width: 320px;
+    width: 300px;
 }
 #search_text{
-    width: 200px;
+    width: 150px;
     padding: 15px 0 15px 20px;
     font-size: 16px;
     font-family: Montserrat, sans-serif;

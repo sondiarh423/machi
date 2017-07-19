@@ -104,7 +104,8 @@ div{
     padding: 0px;
     height: 24px;
     font-size: 10px;
-    line-height: 24px;}
+    line-height: 24px;
+    width: 200px;}
 #search {
     width: 320px;
 }

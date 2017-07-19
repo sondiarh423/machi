@@ -2,7 +2,7 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 body{
-  width:100%;margin:20px auto;
+  width:100%;margin:10px auto;
 }
 #divMain{width:500px;margin:0 auto;}
 
@@ -13,7 +13,7 @@ ul li  {
 nav {
   float: left;
   max-width: 425px;
-  margin: 10px;
+  margin: 5px;
   padding-top: 10px;
   border: 1px solid grey;
   height: 345px;

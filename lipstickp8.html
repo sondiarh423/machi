@@ -1,0 +1,122 @@
+<html>
+<title>Product Pages</title>
+<meta charset = "utf-8" >
+<meta name = "viewport" content = "width=device-width, initial-scale = 1">
+<head>
+  <link rel="stylesheet" href="productpage.css">
+  <script src="productpage.js"></script>
+<body class = "content" style = "max-width: 1200 px">
+  <!--Dropdown-->
+  <header>
+    <ul class = "nav">
+    <div class="container">
+      <div class="dropdown">
+      <button class="dropbtn">Lips</button>
+      <div class="dropdown-content">
+        <a href="https://sondiarh423.github.io/machi/productgridLIPSTICK.html">Lipstick</a>
+        <a href="machi productlist page\lipliner.htm">Lipliner</a>
+        <a href="machi productlist page\lipgloss.htm">Lipgloss</a>
+       </div>
+     </div>
+
+      <div class="dropdown">
+      <button class="dropbtn">Face</button>
+      <div class="dropdown-content">
+        <a href="machi productlist page\foundation.htm">Foundation</a>
+        <a href="machi productlist page\concealer.htm">Concealer</a>
+        <a href="machi productlist page\eyebrows.htm">Eyebrows</a>
+       </div>
+     </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Eyes</button>
+      <div class="dropdown-content">
+        <a href="machi productlist page\eyeshadowpalettes.htm">Eyeshadow Palettes</a>
+        <a href="machi productlist page\eyeliner.htm">Eyeliner</a>
+        <a href="machi productlist page\mascara.htm">Mascara</a>
+       </div>
+     </div>
+
+     <li class="logo">
+         <a href="https://sondiarh423.github.io/machi/homepage.html"><img src="Machi.2.jpg"/></a>
+     </li>
+
+      <div class="dropdown">
+        <button class="dropbtn">Skincare</button>
+        <div class="dropdown-content">
+          <a href="machi productlist page\dryskin.htm">Dry Skin</a>
+          <a href="machi productlist page\oilyskin.htm">Oily Skin</a>
+          <a href="machi productlist page\acneproducts.htm">Acne Products</a>
+          <a href="machi productlist page\spottreatments.htm">Spot Treatment</a>
+          <a href="machi productlist page\bodywash.htm">Body Wash</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Other</button>
+        <div class="dropdown-content">
+          <a href="machi productlist page\makeupbrushes.htm">Makeup Brushes</a>
+          <a href="machi productlist page\sponges.htm">Sponges</a>
+          <a href="machi productlist page\ss&p.htm">Setting Sprays and Primers</a>
+         </div>
+      </div>
+      <div class="dropdown">
+      <li id="search">
+          <form action="" method="get">
+              <input type="text" name="search_text" id="search_text" placeholder="Search"/>
+              <input type="button" name="search_button" id="search_button"></a>
+          </form>
+      </li>
+    </div>
+
+    </ul>
+    </header>
+  <!--Cheap vs Expensive-->
+  <nav>
+    <ul >
+      <li><h1>Expensive</h1><a href="#"><img src="Velvet Teddy.JPG" alt="Lipstick" style = "width:200px;height:228px;"/></a></li>
+      <li><h1>Cheap</h1><a href="#"><img src="Clay Crush.JPG" alt="Lipstick"  style = "width:200px;height:228px;"/></a></li>
+    </ul>
+  </nav>
+  <article class = "article" >
+    <h1 align = "center"> Velvet Teddy vs Clay Crush</h1>
+    <h2 align = "center"> $17 vs. $7.49 </h2>
+    <p> Velvet Teddy is distrubuted by Mac Cosmetics, while Clay Crush is distrubuted by Maybelline. Both lipsticks glide on to the lip easily. They also have a creamy matte finish.</p>
+  </article>
+  <br />
+  <!--Rating-->
+  <section class = "section">
+    <fieldset class="rating">
+    <legend>Please rate:</legend>
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+</fieldset>
+  </section>
+  <!--Video-->
+  <div class = "big-box">
+  <div class = "video-container">
+    <iframe  width = "800px" height = "500px"src="https://www.youtube.com/embed/KRmmtEJGzrE"></iframe>
+  </div>
+<!--Comments-->
+<div class="comments" style="font-weight:bold; font-size:25px">
+
+  <form method='post'>
+    Name: <input type='text' name='name' id='name' style = "width:500px"/><br />
+    <br />
+    Email: <input type='text' name='email' id='email' style = "width:500px" /><br />
+    <br />
+    Comment:<br />
+    <textarea name='comment' id='comment' style = "width: 575px; height: 200px;"></textarea><br />
+
+    <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+    <input type='submit' value='Submit' />
+  </form>
+</div>
+</div>
+</body>
+</head>
+</html>

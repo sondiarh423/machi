@@ -13,7 +13,7 @@ body{
   nav {
     float: left;
     max-width: 450px;
-    margin-left: 50px;
+    margin-left: 25px;
     border: 10px solid #ffe6e6;
     height: 345px;
 
@@ -40,7 +40,7 @@ body{
   .section{
     width: 25%;
     float:left;
-    margin-left:50px;
+    margin-left:25px;
   border: 10px solid #ffe6e6;
   }
   /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
@@ -233,7 +233,7 @@ body{
   .video-container{
     width: 50%;
     float: left;
-    margin-left: 40px;
+    margin-left: 25px;
     padding-top: 10px
   }
 .comments{
@@ -241,7 +241,6 @@ body{
   min-width: 1000px;
   height: 500px;
   z-index:10;
-  margin-right: 50px;
 
 
 
@@ -251,8 +250,7 @@ body{
 
 }
  #footer {
-   margin-left: 50px;
-   margin-right: 75px;
+   margin-left: 25px;
  }
 
 </style>

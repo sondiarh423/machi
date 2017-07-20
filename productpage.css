@@ -2,19 +2,18 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 body{
-    width:100%;margin:20px auto;
+    width:100%;margin:10px auto;
 }
 #divMain{width:500px;margin:0 auto;}
- 
+
 	ul li  {
 		display: inline;
     float: left;
 	}
   nav {
     float: left;
-    max-width: 425px;
-    margin: 10px;
-    padding: 10px;
+    max-width: 450px;
+    margin-left: 50px;
     border: 10px solid #ffe6e6;
     height: 345px;
 
@@ -28,12 +27,11 @@ body{
   }
   .article {
     margin-left: 500px;
-    padding: 5em;
+    padding-left: 10px;
     overflow: hidden;
-    height: 215px;
-  background-image: url("marblebg.jpg");
-
-
+    height: 345px;
+    background-image: url("marblebg copy.jpg");
+    width: 60%;
 
   }
   .rating {
@@ -42,7 +40,7 @@ body{
   .section{
     width: 25%;
     float:left;
-    margin-left:10px;
+    margin-left:50px;
   border: 10px solid #ffe6e6;
   }
   /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
@@ -107,7 +105,7 @@ body{
       font-size: 14px;
       font-weight: 300;
       letter-spacing: 1px;
-      padding-left: 65px;
+      padding-left: 200px;
   }
 
   .container a {
@@ -127,12 +125,13 @@ body{
   }
 
   .dropdown .dropbtn {
-      font-size: 25px;
+      font-size: 32px;
       border: none;
       outline: none;
       color: black;
       padding: 14px 16px;
       background-color: inherit;
+
 
   }
 
@@ -172,14 +171,17 @@ body{
       display: inline-block;
       list-style-type: none;
   }
-  #logo a {
-      padding: 0px;
-      height: 24px;
+  .logo {
+      padding-right: 200px;
       font-size: 10px;
       line-height: 24px;
+      width: 100px;
+      padding-top: 50px;
+
   }
   #search {
     width: 320px;
+    padding-top:10px;
   }
   #search_text{
     width: 200px;
@@ -231,18 +233,26 @@ body{
   .video-container{
     width: 50%;
     float: left;
+    margin-left: 40px;
+    padding-top: 10px
   }
 .comments{
   margin-left: 900px;
   min-width: 1000px;
   height: 500px;
-  top:0%;
-  right:0%;
   z-index:10;
+  margin-right: 50px;
 
 
 
 }
+#submit{
+  background-color:  #ff9999 ;
 
+}
+ #footer {
+   margin-left: 50px;
+   margin-right: 75px;
+ }
 
 </style>

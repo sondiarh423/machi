@@ -109,6 +109,7 @@ div{
   }
 #search {
     width: 300px;
+  padding-top: 5px;
 }
 #search_text{
     width: 150px;

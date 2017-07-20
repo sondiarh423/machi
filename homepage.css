@@ -101,12 +101,14 @@ div{
     display: inline-block;
     list-style-type: none;
 }
-#logo a {
-    padding: 0px;
-    height: 24px;
-    font-size: 10px;
-    line-height: 24px;
-    width: 200px;}
+.logo {
+      padding-right: 200px;
+      height: 500px;
+      font-size: 10px;
+      line-height: 24px;
+      width: 100px;
+      padding-top: 50px;
+  }
 #search {
     width: 300px;
 }
